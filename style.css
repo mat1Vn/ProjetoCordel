@@ -17,8 +17,9 @@ header {
 }
 
 header h1#titulo{
-  font-size: 35pt;
+  font-size: 15vw;
   font-family: 'Passion One';
+  font-variant: small-caps;
 }
 
 header h2 {
@@ -43,13 +44,13 @@ section {
 
 .textosec {
   font-family: Sriracha;
-  max-width: 180px;
-  font-size: 15pt;
+  display: inline-block;
+  font-size: 4vw;
 }
 
 .textosecpr {
   background-color: #555666A3;
-  padding: 5px;
+  padding: 15px 5px;
   color: white;
 }
 
@@ -81,4 +82,8 @@ footer a {
   cursor: pointer;
   text-decoration: none;
   font-weight: 800;
+}
+
+pre {
+  white-space: pre-line;
 }
